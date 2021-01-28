@@ -5,11 +5,7 @@ pipeline {
     }
     agent {
       node {
-        agent {
-          node {
-            label "master"
-          }
-        }
+        label "master"
       }
     }
 
